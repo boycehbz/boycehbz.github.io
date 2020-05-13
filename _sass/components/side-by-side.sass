@@ -41,3 +41,23 @@
 
         @media #{$below}
             margin: 0
+
+.side-side-side
+    @media #{$above}
+        width: 130%
+        margin: 6rem 0 6rem -15%
+
+    @media #{$below}
+        width: 100%
+        margin: 4rem 0
+		
+    > .toleft
+        display: inline-block
+        width: 30%
+    > .toright
+        display: inline-block
+        width: 60%
+
+        @media #{$below}
+            width: 100%
+            margin: 0 0 4rem 0
