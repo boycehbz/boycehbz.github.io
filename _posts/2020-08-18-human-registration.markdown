@@ -78,6 +78,7 @@ ob_main = bpy.data.objects[mesh] # mesh为定义的网格模型名称
 </div>
 
 ## References
-\[1\] 顺子老师Blender教程：https://www.bilibili.com/video/BV14W411N75Z?p=32<br>
+\[1\] 项目代码：https://github.com/boycehbz/HumanRegistration<br>
+\[2\] 顺子老师Blender教程：https://www.bilibili.com/video/BV14W411N75Z?p=32<br>
 
 ---
