@@ -4,8 +4,8 @@ layout: page
 ---
 ![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %})
 
-<p>I am a master student in Vision and Cognition Lab at Southeast University (SEU), China, advised by Prof. <a href="https://www.yangangwang.com/">Yangang Wang</a>. 
-I received my B.E. degree in Automation at Hangzhou Dianzi University (HDU), China. 
+<p>Hi, this is Buzhen Huang (黄步真). I am a master student in Vision and Cognition Lab at Southeast University (SEU), advised by Prof. <a href="https://www.yangangwang.com/">Yangang Wang</a>. 
+I received my B.E. degree in Automation at Hangzhou Dianzi University (HDU). 
 My general research interest lies in human shape reconstrution and motion capture.</p>
 
 

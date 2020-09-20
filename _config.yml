@@ -1,6 +1,6 @@
 # main text of home
 name: Buzhen Huang
-bio: A Man who travels the world eating noodles
+bio: what, why, how
 
 # twitter summary info
 description: A blog about technology and stuff related
@@ -55,7 +55,7 @@ email: buzhenhuang@qq.com
 authors:
   johndoe:
     name: Buzhen Huang
-    bio: A Man who travels the world eating noodles
+    bio: what, why, how
     external-image: false
     picture: assets/images/profile.jpg
     twitter: boycehbz
