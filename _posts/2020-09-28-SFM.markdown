@@ -1,0 +1,105 @@
+---
+title: "structure-from-motion"
+layout: post
+date: 2020-09-28 20:30
+image: /assets/images/SFM/title.png
+headerImage: true
+tag:
+- algorithm
+category: blog
+author: Buzhen Huang
+excerpt: SFM
+description: SFM
+---
+
+SFM（structure-from-motion）算法是一种基于收集到的无序图片进行三维重建的离线算法。其可以通过单个运动的相机不同时刻拍摄的静态对象图片恢复对象物体的三维结构，同时也可以使用多视角固定视角的图片作为输入。其算法流程如图所示：
+<div  align="center"> 
+<img src="/assets/images/SFM/pipeline.png" width = "500" height = "310"/>
+</div>
+
+
+## 一、算法流程
+#### 1、特征检测
+SFM一般使用[SIFT](http://www.buzhenhuang.com/SIFT/)特征。
+
+#### 2、特征匹配
+每张图片都进行SIFT特征检测后，我们需要将不同图片中的特征进行匹配。首先计算两张图像（如图像I和图像J）中特征之间的距离：
+<div  align="center"> 
+<img src="/assets/images/SFM/dist.png" width = "180" height = "45"/>
+</div>
+如果图像I中的某个特征F<sub>i1</sub>与图像J中的特征F<sub>j1</sub>之间的距离最小，为d<sub>1</sub>。此外，F<sub>i1</sub>与图像J中的特征F<sub>j2</sub>的距离d<sub>2</sub>仅次于d<sub>1</sub>。若d<sub>1</sub>/d<sub>2</sub>小于0.6，那么我们认为F<sub>i1</sub>与F<sub>j1</sub>是匹配点。类似的，对图像I中的每个特征都选择一个匹配点。但是我们发现，对于图像I中的每个特征，都有图像J中的唯一特征与之对应。但是对于图像J中的特征，可能存在图像I中的多个特征与之对应。因此，对这种情况需要做一次反向的筛选。最终如果一一匹配的特征数量不小于16个，那图像I和图像J可以作为初选的图像对。<br>
+
+匹配的所有特征对的像素坐标均需要满足对极约束，即：
+<div  align="center"> 
+<img src="/assets/images/SFM/f1.png" width = "193" height = "100"/>
+</div>
+<div  align="center"> 
+<img src="/assets/images/SFM/f2.png" width = "268" height = "86"/>
+</div>
+F矩阵称为基础矩阵（fundamental matrix），反映空间一点P的像素点与该点在不同视角摄像机下图像坐标系中的关系。它可以把两张图片之间的像素坐标联系起来，并包含相机的内参信息。
+上述公式可以写为：
+<div  align="center"> 
+<img src="/assets/images/SFM/f3.png" width = "250" height = "190"/>
+</div>
+进一步，此方程如果要得到唯一解，则必须有8个匹配的特征对。
+<div  align="center"> 
+<img src="/assets/images/SFM/f4.png" width = "350" height = "220"/>
+</div>
+当匹配对大于8时可以使用最小二乘法计算。
+
+但是，当匹配对中存在噪声时，F矩阵的计算会受到很大的干扰。对此前人提出过诸如加权最小二乘等方法，但是最通用的还是使用RANSAC进行数据滤除。
+RANSAC在当前所有匹配对中拟合一个模型，把不符合模型的点进行滤除，以此来保证计算F矩阵的准确性。
+<div  align="center"> 
+<img src="/assets/images/SFM/ransac1.png" width = "400" height = "200"/>
+</div>
+其求解过程为：
+<div  align="center"> 
+<img src="/assets/images/SFM/ransac2.png" width = "400" height = "160"/>
+</div>
+<div  align="center"> 
+<img src="/assets/images/SFM/ransac3.png" width = "400" height = "170"/>
+</div>
+<div  align="center"> 
+<img src="/assets/images/SFM/ransac4.png" width = "400" height = "160"/>
+</div>
+<div  align="center"> 
+<img src="/assets/images/SFM/ransac5.png" width = "400" height = "160"/>
+</div>
+<div  align="center"> 
+<img src="/assets/images/SFM/ransac6.png" width = "400" height = "160"/>
+</div>
+<div  align="center"> 
+<img src="/assets/images/SFM/ransac7.png" width = "400" height = "180"/>
+</div>
+选取内点最多的对应F，这时候可以找到比较好的匹配点对了。
+
+#### 3、特征分解
+我们求得基础矩阵F之后可以进一步得到本征矩阵E，F和E之间的关系为：
+<center>F=K<sup>-T</sup>EK<sup>-1</sup></center>
+K为相机内参。
+得到的本征矩阵E能够反映空间一点P的像点在不同视角摄像机下相机坐标系中的关系。（此处为三维点）
+<div  align="center"> 
+<img src="/assets/images/SFM/e.png" width = "210" height = "90"/>
+</div>
+E能够分解为R和t，即相机外参中的旋转和平移。
+
+#### 4、SFM
+获取初始的相机内外参、三维点后。利用多视角的重投影误差可以构建bundle adjustment（BA）问题，进一步优化相机参数和三维点。初始化的两帧图片可以进行第一次BA，然后不断添加新的相机和3D点进行BA。最终得到所有相机参数和估计的点云。
+<div  align="center"> 
+<img src="/assets/images/SFM/reprojection.png" width = "280" height = "210"/>
+</div>
+<div  align="center"> 
+<img src="/assets/images/SFM/reprojection1.png" width = "261" height = "51"/>
+</div>
+bundle adjustment实际上是一个非线性最小二乘问题，因此初始值的准确性很重要。所以为了获取准确的初始值，需要尽量多的匹配点，同时相机中心与物体之间有足够的距离。
+
+
+## Reference
+\[1\] [SFM算法流程](https://blog.csdn.net/qq_20791919/article/details/74936438?utm_medium=distribute.pc_relevant.none-task-blog-title-2&spm=1001.2101.3001.4242)<br>
+\[2\] [本质矩阵和基础矩阵的区别是什么？](https://www.zhihu.com/question/27581884/answer/105606049)<br>
+\[3\] [SFM算法原理初简介](https://www.dazhuanlan.com/2019/11/30/5de142fe13cec/?__cf_chl_jschl_tk__=14e8d755de014cf78b8de8a8a1416e5ce755e389-1601296635-0-ASb4hhiZ-Nx_9HM8vK3bCZnQwolwO-qNpabsbgxZoQPICM17Z_URpt7hBkE2vmJSGchZvT2c7ilW8d4jKjpoWrJ--Oe-MQMQ4TXafqr_HdEAuVHQe7wVg9EVVwjE_6nPy45dWZ9Gy2vsvG19uB9EIAmKQPyTJ_t9Al1klY82iZ6iles51FZYKELHbTFI6Mrf5C1aPSsfQPwQQmZJWcnYV9RK8y01St6LXfSLYcGNJ2G2ZJTb1Ud4j29Qun5DqWY0hoTtiuSiLD8MXa0_6xHhhyoS5mAA0tlQihBjDVWYCksbW7_ZooES8iUak9eY5CFzlg)<br>
+\[4\] [计算机视觉基本原理——RANSAC](https://zhuanlan.zhihu.com/p/45532306)<br>
+
+
+
+---
