@@ -8,16 +8,32 @@ layout: page
 I received my B.E. degree in Automation at Hangzhou Dianzi University (HDU) under the supervision of Prof. <a href="http://auto.hdu.edu.cn/2019/0621/c3803a96028/page.htm">Chenggang Yan</a> and Prof. <a href="http://www.gaoyue.org/cn/people/gaoyue_index.html">Yue Gao</a>. 
 My general research interest lies in human shape reconstrution and motion capture.</p>
 
+<h2>News</h2>
 
-<h2>Skills</h2>
-
-<ul class="skill-list">
-    <li>Python</li>
-    <li>C++</li>
-	<li>Git</li>
-	<li>Pytorch</li>
-	<li>OpenCV</li>
+<ul>
+    <li>[2021-10-04] One paper is accepted to 3DV2021.</li>
+    <li>[2020-02-24] One paper is accepted to CVPR2020.</li>
 </ul>
+
+<h2>Teaching Assistant</h2>
+
+<ul>
+    <li>
+	<span style="display:inline-block;font-size:1.7rem;font-family:Arial;font-weight:bold;">Digital Image Processing System</span><br>
+	<span style="display:inline-block;font-size:1.4rem;font-family:Arial;padding-bottom:0.6rem">Instructor: Yangang Wang, Fall 2020</span>
+	</li>
+    <li>
+	<span style="display:inline-block;font-size:1.7rem;font-family:Arial;font-weight:bold;">Introduction to Artificial Intelligence</span><br>
+	<span style="display:inline-block;font-size:1.4rem;font-family:Arial;padding-bottom:0.6rem">Instructor: Yangang Wang, Fall 2019</span>
+	</li>
+</ul>
+
+<h2>Academic Service</h2>
+
+<ul>
+	<li>Paper Reviewer: CVPR2022</li><br>
+</ul>
+
 
 <h2>Projects</h2>
 
