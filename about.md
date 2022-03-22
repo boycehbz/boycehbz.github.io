@@ -11,10 +11,10 @@ My general research interest lies in human shape reconstrution and motion captur
 <h2>News</h2>
 
 <ul>
-	<li>[2022-03-02]  One paper is accepted to CVPR2022.</li>
+	<li>[2022-03-02]  One paper accepted to CVPR2022.</li>
 	<li>[2022-01-05]  I gave a talk at <a href="https://www.noahlab.com.hk/#/home">Huawei Noah's Ark Lab</a>.</li>
-    <li>[2021-10-04]  One paper is accepted to 3DV2021.</li>
-    <li>[2020-02-24]  One paper is accepted to CVPR2020.</li>
+    <li>[2021-10-04]  One paper accepted to 3DV2021.</li>
+    <li>[2020-02-24]  One paper accepted to CVPR2020.</li>
 </ul>
 
 <h2>Teaching Assistant</h2>
@@ -33,7 +33,7 @@ My general research interest lies in human shape reconstrution and motion captur
 <h2>Academic Service</h2>
 
 <ul>
-	<li>Paper Reviewer: CVPR2022, ECCV2022</li><br>
+	<li>Paper Reviewer: CVPR2022, ECCV2022, ACM MM2022</li><br>
 </ul>
 
 
