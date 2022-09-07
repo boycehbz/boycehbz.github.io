@@ -10,13 +10,69 @@ My general research interest lies in human shape reconstrution and motion captur
 
 <h2>News</h2>
 
-<ul>
-	<li>[2022-08-09]  One paper accepted to TPAMI2022.</li>
+<ul>  
+	<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+		  <tr>
+            <td class="news_date1">
+            <li>[2022-08-24]  Honored to receive <a href="https://mp.weixin.qq.com/s/IxiD7QWTP_35qSf3LnYCdQ" target="_blank">Style3D Graduate Fellowship</a>!</li>
+            </td>
+          </tr>
+		  <tr>
+            <td class="news_date1">
+            <li>[2022-08-09]  One paper accepted to TPAMI2022.</li>
+            </td>
+          </tr>
+          <tr>
+            <td class="news_date1">
+            <li>[2022-06-12]  One paper accepted to TIP2022.</li>
+            </td>
+          </tr>
+          <tr>
+            <td class="news_date1">
+            <li>[2022-03-02]  One paper accepted to CVPR2022.</li>
+            </td>
+          </tr>
+          <tr>
+            <td class="news_date1">
+            <li>[2022-01-05]  I gave a talk at <a href="https://www.noahlab.com.hk/#/home" target="_blank">Huawei Noah's Ark Lab</a>.</li>
+            </td>
+          </tr>
+          <tr class="table_toggle" style="display: none;">
+            <td class="news_date1">
+            <li>[2021-10-04]  One paper accepted to 3DV2021.</li>
+            </td>
+          </tr>
+          <tr class="table_toggle" style="display: none;">
+            <td class="news_date1">
+            <li> [2020-02-24]  One paper accepted to CVPR2020.</li>
+            </td>
+          </tr>
+        </tbody></table>
+	<div style="margin-bottom:25px;padding: 0px 0px 0px 0px;">
+			<a id="toggle_button" href="javascript:toggle()">Show more</a><script>
+				function toggle() {
+				var rows = document.getElementsByClassName("table_toggle");
+				var y = document.getElementById("toggle_button");
+				if (rows[0].style.display == "none") {
+					for (var i = 0; i < rows.length; i++) {
+					rows[i].style.display = "";
+					}
+					y.innerHTML = "Show less";
+				} else {
+					for (var i = 0; i < rows.length; i++) {
+					rows[i].style.display = "none";
+					}
+					y.innerHTML = "Show more";
+				}
+				}
+			</script>
+	</div>
+	<!-- <li>[2022-08-09]  One paper accepted to TPAMI2022.</li>
 	<li>[2022-06-12]  One paper accepted to TIP2022.</li>
 	<li>[2022-03-02]  One paper accepted to CVPR2022.</li>
 	<li>[2022-01-05]  I gave a talk at <a href="https://www.noahlab.com.hk/#/home">Huawei Noah's Ark Lab</a>.</li>
     <li>[2021-10-04]  One paper accepted to 3DV2021.</li>
-    <li>[2020-02-24]  One paper accepted to CVPR2020.</li>
+    <li> [2020-02-24]  One paper accepted to CVPR2020.</li> -->
 </ul>
 
 <h2>Teaching Assistant</h2>
