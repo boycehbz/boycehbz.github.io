@@ -14,7 +14,7 @@ My general research interest lies in human shape reconstrution and motion captur
 	<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 		  <tr>
             <td class="news_date1">
-            <li>[2022-08-24]  Honored to receive <a href="https://mp.weixin.qq.com/s/IxiD7QWTP_35qSf3LnYCdQ" target="_blank">Style3D Graduate Fellowship</a>!</li>
+            <li>[2022-08-24]  Honored to receive <a href="http://tc.ccf.org.cn/tccad/jlry/txkysjjj/hjrxx/2022-10-14/775286.shtml" target="_blank">Style3D Graduate Fellowship</a>!</li>
             </td>
           </tr>
 		  <tr>
