@@ -91,8 +91,8 @@ My general research interest lies in human shape reconstrution and motion captur
 <h2>Academic Service</h2>
 
 <ul>
-	<li>Conference Reviewer: CVPR2022, ECCV2022, ACM MM2022, etc.</li><br>
-	<li>Journal Reviewer: Computers & Graphics.</li><br>
+	<li>Conference Reviewer: CVPR, ECCV, ACM MM, etc.</li><br>
+	<li>Journal Reviewer: TMM, Computers & Graphics.</li><br>
 </ul>
 
 
