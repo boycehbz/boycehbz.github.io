@@ -9,11 +9,11 @@
     <header class="header-home {% if site.animation %}animated{% endif %}">
         {% if site.about %}
             <a class="link" href="{{ site.url }}/about">
-                <img class="selfie" alt="{{ site.name }}" src="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}" />
+                <img class="selfie" alt="{{ site.name }}" src="{% if site.external-image %}{{ site.picture1 }}{% else %}{{ site.url }}/{{ site.picture1 }}{% endif %}" />
             </a>
         {% else %}
             <span class="link">
-                <img class="selfie" alt="{{ site.name }}" src="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}" />
+                <img class="selfie" alt="{{ site.name }}" src="{% if site.external-image %}{{ site.picture1 }}{% else %}{{ site.url }}/{{ site.picture1 }}{% endif %}" />
             </span>
         {% endif %}
 
