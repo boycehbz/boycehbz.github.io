@@ -19,7 +19,7 @@ My general research interest lies in human shape reconstrution and motion captur
           </tr>
   		    <tr>
             <td class="news_date1">
-            <li>[2023-02-07]  CrowdRec won 1st place in <a href="https://www.gigavision.cn/track/track?nav=GigaCrowd&type=nav" target="_blank">GigaCrowd Challenge</a>.</li>
+            <li>[2023-02-07]  CrowdRec won the 1st place in <a href="https://www.gigavision.cn/track/track?nav=GigaCrowd&type=nav" target="_blank">GigaCrowd Challenge</a>.</li>
             </td>
           </tr>
 		      <tr>
@@ -101,7 +101,7 @@ My general research interest lies in human shape reconstrution and motion captur
 <h2>Academic Service</h2>
 
 <ul>
-	<li>Conference Reviewer: CVPR, ICCV, ECCV, ACM MM, etc.</li><br>
+	<li>Conference Reviewer: CVPR, ICCV, ECCV, IJCAI, ACM MM, etc.</li><br>
 	<li>Journal Reviewer: TMM, Computers & Graphics.</li><br>
 </ul>
 
