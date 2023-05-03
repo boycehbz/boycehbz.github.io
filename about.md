@@ -4,7 +4,7 @@ layout: page
 ---
 ![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %})
 
-<p>Hi, this is Buzhen Huang (黄步真). I am a Ph.D. student in Vision and Cognition Lab at Southeast University (SEU), advised by Prof. <a href="https://www.yangangwang.com/">Yangang Wang</a>. 
+<p>Hi, there! My name is Buzhen Huang (黄步真). I am a Ph.D. student in Vision and Cognition Lab at Southeast University (SEU), advised by Prof. <a href="https://www.yangangwang.com/">Yangang Wang</a>. 
 I received my B.E. degree in Automation at Hangzhou Dianzi University (HDU) under the supervision of Prof. <a href="http://auto.hdu.edu.cn/2019/0621/c3803a96028/page.htm">Chenggang Yan</a> and Prof. <a href="http://www.gaoyue.org/cn/people/gaoyue_index.html">Yue Gao</a>. 
 My general research interest lies in human shape reconstrution and motion capture.</p>
 
@@ -12,6 +12,11 @@ My general research interest lies in human shape reconstrution and motion captur
 
 <ul>  
 	<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+  		    <tr>
+            <td class="news_date1">
+            <li>[2023-04-19]  One paper accepted to IJCAI2023.</li>
+            </td>
+          </tr>
   		    <tr>
             <td class="news_date1">
             <li>[2023-02-10]  We released <a href="https://github.com/boycehbz/CHOMP#ocmotion-dataset" target="_blank">OcMotion</a> dataset.</li>
@@ -32,7 +37,7 @@ My general research interest lies in human shape reconstrution and motion captur
             <li>[2022-08-09]  One paper accepted to TPAMI2022.</li>
             </td>
           </tr>
-          <tr>
+          <tr class="table_toggle" style="display: none;">
             <td class="news_date1">
             <li>[2022-06-12]  One paper accepted to TIP2022.</li>
             </td>
@@ -101,17 +106,17 @@ My general research interest lies in human shape reconstrution and motion captur
 <h2>Academic Service</h2>
 
 <ul>
-	<li>Conference Reviewer: CVPR, ICCV, ECCV, IJCAI, ACM MM, etc.</li><br>
+	<li>Conference Reviewer: NeurIPS, CVPR, ICCV, ECCV, IJCAI, etc.</li><br>
 	<li>Journal Reviewer: TMM, Computers & Graphics.</li><br>
 </ul>
 
 
-<h2>Projects</h2>
+<!-- <h2>Projects</h2>
 
 <ul>
 	<li><a href="http://yangangwang.com/papers/ZHANG-OOH-2020-03.html">Occluded Human Reconstruction</a></li><br>
 	<li><a href="https://github.com/boycehbz/MvSMPLfitting">MvSMPLfitting</a></li>
-</ul>
+</ul> -->
 
 <br>
 <br>
