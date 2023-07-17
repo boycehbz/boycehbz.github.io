@@ -12,6 +12,11 @@ My general research interest lies in human shape reconstrution and motion captur
 
 <ul>  
 	<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    		  <tr>
+            <td class="news_date1">
+            <li>[2023-07-14]  One paper accepted to ICCV2023.</li>
+            </td>
+          </tr>
   		    <tr>
             <td class="news_date1">
             <li>[2023-04-19]  One paper accepted to IJCAI2023.</li>
@@ -33,7 +38,7 @@ My general research interest lies in human shape reconstrution and motion captur
             </td>
           </tr>
 		      <tr>
-            <td class="news_date1">
+            <td class="news_date1" style="display: none;">
             <li>[2022-08-09]  One paper accepted to TPAMI2022.</li>
             </td>
           </tr>
