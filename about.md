@@ -5,8 +5,8 @@ layout: page
 ![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %})
 
 <p>Hi there! My name is Buzhen Huang (黄步真). I am a Ph.D. student in Vision and Cognition Lab at Southeast University (SEU), advised by Prof. <a href="https://www.yangangwang.com/">Yangang Wang</a>. 
-<!-- I am currently visiting National University of Singapore (NUS) and working with Prof. <a href="https://www.comp.nus.edu.sg/~leegh/">Gim Hee Lee</a>. -->
-I received my B.E. degree in Automation at Hangzhou Dianzi University (HDU) under the supervision of Prof. <a href="http://auto.hdu.edu.cn/2019/0621/c3803a96028/page.htm">Chenggang Yan</a> and Prof. <a href="http://www.gaoyue.org/cn/people/gaoyue_index.html">Yue Gao</a>. 
+I am currently visiting National University of Singapore (NUS), where I work with Prof. <a href="https://www.comp.nus.edu.sg/~leegh/">Gim Hee Lee</a>.
+I received my B.E. degree in Automation at Hangzhou Dianzi University (HDU) under the supervision of Prof. <a href="https://cgyan-iipl.github.io/">Chenggang Yan</a> and Prof. <a href="https://www.gaoyue.org/">Yue Gao</a>. 
 My general research interest lies in human shape reconstruction and motion capture.</p>
 
 <h2>News</h2>
