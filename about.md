@@ -15,6 +15,11 @@ My general research interest lies in human shape reconstruction and motion captu
 	<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
     		  <tr>
             <td class="news_date1">
+            <li>[2024-02-27]  One paper accepted to CVPR2024.</li>
+            </td>
+          </tr>
+    		  <tr>
+            <td class="news_date1">
             <li>[2023-07-14]  One paper accepted to ICCV2023.</li>
             </td>
           </tr>
@@ -34,7 +39,7 @@ My general research interest lies in human shape reconstruction and motion captu
             </td>
           </tr>
 		      <tr>
-            <td class="news_date1">
+            <td class="news_date1" style="display: none;">
             <li>[2022-08-24]  Honored to receive <a href="http://tc.ccf.org.cn/tccad/jlry/txkysjjj/hjrxx/2022-10-14/775286.shtml" target="_blank">Style3D Graduate Fellowship</a>!</li>
             </td>
           </tr>
@@ -113,7 +118,7 @@ My general research interest lies in human shape reconstruction and motion captu
 
 <ul>
   <li>Session Chair: IJCAI.</li><br>
-	<li>Conference Reviewer: NeurIPS, CVPR, ICCV, ECCV, IJCAI, etc.</li><br>
+	<li>Conference Reviewer: NeurIPS, CVPR, ICCV, ECCV, IJCAI, ACCV, etc.</li><br>
 	<li>Journal Reviewer: TMM, Computers & Graphics.</li><br>
 </ul>
 
