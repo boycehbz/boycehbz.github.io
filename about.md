@@ -119,7 +119,7 @@ My general research interest lies in human shape reconstruction and motion captu
 <ul>
   <li>Session Chair: IJCAI.</li><br>
 	<li>Conference Reviewer: NeurIPS, CVPR, ICCV, ECCV, IJCAI, ACCV, etc.</li><br>
-	<li>Journal Reviewer: TMM, Computers & Graphics.</li><br>
+	<li>Journal Reviewer: TPAMI, TMM, Computers & Graphics.</li><br>
 </ul>
 
 
