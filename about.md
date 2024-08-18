@@ -13,19 +13,24 @@ My general research interest lies in human shape reconstruction and motion captu
 
 <ul>  
 	<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-    		  <tr>
+      		  <tr>
             <td class="news_date1">
-            <li>[2024-02-27]  One paper accepted to CVPR2024.</li>
+            <li>[2024-08-17]  Invited talk on Human Interaction Modeling at <a href="https://www.prai.net/index.html" target="_blank">PRAI 2024</a>.</li>
             </td>
           </tr>
     		  <tr>
             <td class="news_date1">
-            <li>[2023-07-14]  One paper accepted to ICCV2023.</li>
+            <li>[2024-02-27]  One paper accepted to CVPR 2024.</li>
+            </td>
+          </tr>
+    		  <tr>
+            <td class="news_date1">
+            <li>[2023-07-14]  One paper accepted to ICCV 2023.</li>
             </td>
           </tr>
   		    <tr>
             <td class="news_date1">
-            <li>[2023-04-19]  One paper accepted to IJCAI2023.</li>
+            <li>[2023-04-19]  One paper accepted to IJCAI 2023.</li>
             </td>
           </tr>
   		    <tr>
@@ -34,7 +39,7 @@ My general research interest lies in human shape reconstruction and motion captu
             </td>
           </tr>
   		    <tr>
-            <td class="news_date1">
+            <td class="news_date1" style="display: none;">
             <li>[2023-02-07]  CrowdRec won the 1st place in <a href="https://www.gigavision.cn/track/track?nav=GigaCrowd&type=nav" target="_blank">GigaCrowd Challenge</a>.</li>
             </td>
           </tr>
@@ -45,32 +50,32 @@ My general research interest lies in human shape reconstruction and motion captu
           </tr>
 		      <tr>
             <td class="news_date1" style="display: none;">
-            <li>[2022-08-09]  One paper accepted to TPAMI2022.</li>
+            <li>[2022-08-09]  One paper accepted to TPAMI 2022.</li>
             </td>
           </tr>
           <tr class="table_toggle" style="display: none;">
             <td class="news_date1">
-            <li>[2022-06-12]  One paper accepted to TIP2022.</li>
+            <li>[2022-06-12]  One paper accepted to TIP 2022.</li>
             </td>
           </tr>
           <tr class="table_toggle" style="display: none;">
             <td class="news_date1">
-            <li>[2022-03-02]  One paper accepted to CVPR2022.</li>
+            <li>[2022-03-02]  One paper accepted to CVPR 2022.</li>
             </td>
           </tr>
           <tr class="table_toggle" style="display: none;">
             <td class="news_date1">
-            <li>[2022-01-05]  I gave a talk at <a href="https://www.noahlab.com.hk/#/home" target="_blank">Huawei Noah's Ark Lab</a>.</li>
+            <li>[2022-01-05]  Invited talk at <a href="https://www.noahlab.com.hk/#/home" target="_blank">Huawei Noah's Ark Lab</a>.</li>
             </td>
           </tr>
           <tr class="table_toggle" style="display: none;">
             <td class="news_date1">
-            <li>[2021-10-04]  One paper accepted to 3DV2021.</li>
+            <li>[2021-10-04]  One paper accepted to 3DV 2021.</li>
             </td>
           </tr>
           <tr class="table_toggle" style="display: none;">
             <td class="news_date1">
-            <li> [2020-02-24]  One paper accepted to CVPR2020.</li>
+            <li> [2020-02-24]  One paper accepted to CVPR 2020.</li>
             </td>
           </tr>
         </tbody></table>
