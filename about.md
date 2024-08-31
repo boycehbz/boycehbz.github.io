@@ -39,17 +39,17 @@ My general research interest lies in human shape reconstruction and motion captu
             </td>
           </tr>
   		    <tr>
-            <td class="news_date1" style="display: none;">
+            <td class="table_toggle" style="display: none;">
             <li>[2023-02-07]  CrowdRec won the 1st place in <a href="https://www.gigavision.cn/track/track?nav=GigaCrowd&type=nav" target="_blank">GigaCrowd Challenge</a>.</li>
             </td>
           </tr>
 		      <tr>
-            <td class="news_date1" style="display: none;">
+            <td class="table_toggle" style="display: none;">
             <li>[2022-08-24]  Honored to receive <a href="http://tc.ccf.org.cn/tccad/jlry/txkysjjj/hjrxx/2022-10-14/775286.shtml" target="_blank">Style3D Graduate Fellowship</a>!</li>
             </td>
           </tr>
 		      <tr>
-            <td class="news_date1" style="display: none;">
+            <td class="table_toggle" style="display: none;">
             <li>[2022-08-09]  One paper accepted to TPAMI 2022.</li>
             </td>
           </tr>
@@ -123,7 +123,7 @@ My general research interest lies in human shape reconstruction and motion captu
 
 <ul>
   <li>Session Chair: IJCAI.</li><br>
-	<li>Conference Reviewer: NeurIPS, CVPR, ICCV, ECCV, IJCAI, ACCV, etc.</li><br>
+	<li>Conference Reviewer: NeurIPS, CVPR, ICCV, ECCV, ICLR, BMVC, etc.</li><br>
 	<li>Journal Reviewer: TPAMI, TMM, CVMJ, Computers & Graphics.</li><br>
 </ul>
 
