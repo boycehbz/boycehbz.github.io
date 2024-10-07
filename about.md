@@ -15,7 +15,7 @@ My general research interest lies in human shape reconstruction and motion captu
 	<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
       		  <tr>
             <td class="news_date1">
-            <li>[2024-08-17]  Invited talk on Human Interaction Modeling at <a href="https://www.prai.net/index.html" target="_blank">PRAI 2024</a>.</li>
+            <li>[2024-08-17]  Invited talk on Human Interaction Modeling at <a href="https://www.prai.net/prai2024.html" target="_blank">PRAI 2024</a>.</li>
             </td>
           </tr>
     		  <tr>
