@@ -5,15 +5,20 @@ layout: page
 ![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %})
 
 <p>Hi there! My name is Buzhen Huang (黄步真). I am a Ph.D. student in Vision and Cognition Lab at Southeast University (SEU), advised by Prof. <a href="https://www.yangangwang.com/">Yangang Wang</a>. 
-I am currently visiting National University of Singapore (NUS), where I work with Prof. <a href="https://www.comp.nus.edu.sg/~leegh/">Gim Hee Lee</a>.
+I visited the National University of Singapore (NUS) in 2023, where I worked with Prof. <a href="https://www.comp.nus.edu.sg/~leegh/">Gim Hee Lee</a>.
 I received my B.E. degree in Automation at Hangzhou Dianzi University (HDU) under the supervision of Prof. <a href="https://cgyan-iipl.github.io/">Chenggang Yan</a> and Prof. <a href="https://www.gaoyue.org/">Yue Gao</a>. 
-My general research interest lies in human shape reconstruction and motion capture.</p>
+My general research interests are in human shape reconstruction and motion capture.</p>
 
 <h2>News</h2>
 
 <ul>  
 	<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-      		  <tr>
+        	<tr>
+            <td class="news_date1">
+            <li>[2024-11-05]  I was selected as a <a href="https://neurips.cc/Conferences/2024/ProgramCommittee#top-reviewers" target="_blank">top reviewer</a> of NeurIPS 2024.</li>
+            </td>
+          </tr>
+      		<tr>
             <td class="news_date1">
             <li>[2024-08-17]  Invited talk on Human Interaction Modeling at <a href="https://www.prai.net/prai2024.html" target="_blank">PRAI 2024</a>.</li>
             </td>
@@ -34,7 +39,7 @@ My general research interest lies in human shape reconstruction and motion captu
             </td>
           </tr>
   		    <tr>
-            <td class="news_date1">
+            <td class="table_toggle" style="display: none;">
             <li>[2023-02-10]  We released <a href="https://github.com/boycehbz/CHOMP#ocmotion-dataset" target="_blank">OcMotion</a> dataset.</li>
             </td>
           </tr>
