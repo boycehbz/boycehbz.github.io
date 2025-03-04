@@ -13,6 +13,16 @@ My general research interests are in human shape reconstruction and motion captu
 
 <ul>  
 	<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    		  <tr>
+            <td class="news_date1">
+            <li>[2025-02-26]  Two papers accepted to CVPR 2025.</li>
+            </td>
+          </tr>
+    		  <tr>
+            <td class="news_date1">
+            <li>[2025-01-22]  One paper accepted to ICLR 2025.</li>
+            </td>
+          </tr>
         	<tr>
             <td class="news_date1">
             <li>[2024-11-05]  I was selected as a <a href="https://neurips.cc/Conferences/2024/ProgramCommittee#top-reviewers" target="_blank">top reviewer</a> of NeurIPS 2024.</li>
@@ -29,12 +39,12 @@ My general research interests are in human shape reconstruction and motion captu
             </td>
           </tr>
     		  <tr>
-            <td class="news_date1">
+            <td class="table_toggle" style="display: none;">
             <li>[2023-07-14]  One paper accepted to ICCV 2023.</li>
             </td>
           </tr>
   		    <tr>
-            <td class="news_date1">
+            <td class="table_toggle" style="display: none;">
             <li>[2023-04-19]  One paper accepted to IJCAI 2023.</li>
             </td>
           </tr>
@@ -128,7 +138,7 @@ My general research interests are in human shape reconstruction and motion captu
 
 <ul>
   <li>Session Chair: IJCAI.</li><br>
-	<li>Conference Reviewer: NeurIPS, CVPR, ICCV, ECCV, ICLR, BMVC, etc.</li><br>
+	<li>Conference Reviewer: NeurIPS, CVPR, ICCV, ECCV, ICLR, ICML, etc.</li><br>
 	<li>Journal Reviewer: TPAMI, TMM, CVMJ, Computers & Graphics.</li><br>
 </ul>
 
