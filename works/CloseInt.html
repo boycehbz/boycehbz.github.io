@@ -2,19 +2,19 @@
 <!-- saved from url=(0039)https://nileshkulkarni.github.io/nifty/ -->
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
    <!-- Google tag (gtag.js) -->
-    <!-- <script async="" src="./NIFTY_files/js"></script>
+    <script async="" src="./NIFTY_files/js"></script>
     <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
 
     gtag('config', 'G-DB5J2MQV0D');
-    </script> -->
+    </script>
 
-    <!-- <script src="./NIFTY_files/jsapi" type="text/javascript"></script>
+    <script src="./NIFTY_files/jsapi" type="text/javascript"></script>
     <script type="text/javascript">
     google.load("jquery", "1.3.2");
-    </script>     -->
+    </script>    
 <style type="text/css">
 body {
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
@@ -205,7 +205,7 @@ c {
     }
 
 
-</style><title>CloseApp</title><meta property="og:title" content="nlos"></head>
+</style><title>NIFTY</title><meta property="og:title" content="nlos"></head>
 
 
 
@@ -220,24 +220,25 @@ c {
     <br>
     <center>
     <p>
-        <span style="font-size:42px"> Reconstructing Close Human Interaction with Appearance and Proxemics Reasoning </span>
+        <span style="font-size:42px"> NIFTY: Neural Object Interaction Fields <br>
+            for Guided Human Motion Synthesis </span>
     </p>
     </center>
     <br>
     <div align="center" class="authors">
-       <a href="https://www.buzhenhuang.com/"> Buzhen Huang<sup>1,2</sup></a> 
+       <a href="https://nileshkulkarni.github.io/"> Nilesh Kulkarni<sup>1,2</sup></a> 
        &nbsp;  
-       <a href="https://chaneyddtt.github.io/"> Chen Li<sup>4,5</sup></a> 
+       <a href="https://davrempe.github.io/"> Davis Rempe<sup>3</sup></a> 
        &nbsp;  
-       <a href="https://github.com/Wil909"> Chongyang Xu<sup>3</sup></a> 
+       <a href="https://www.kylegenova.com/"> Kyle Genova<sup>2</sup></a> 
        &nbsp;  
-       <a href="https://dylanorange.github.io/"> Dongyue Lu<sup>2</sup></a> 
+       <a href="https://abhijitkundu.info/"> Abhijit Kundu<sup>2</sup></a> 
        <br>
-       <a href="https://jinnan-chen.github.io/"> Jinnan Chen<sup>2</sup></a> 
+       <a href="https://web.eecs.umich.edu/~justincj/"> Justin Johnson<sup>1</sup></a> 
        &nbsp;  
-       <a href="https://www.yangangwang.com/"> Yangang Wang<sup>1</sup></a> 
+       <a href="https://web.eecs.umich.edu/~fouhey/#"> David Fouhey<sup>1</sup></a> 
        &nbsp;  
-       <a href="https://www.comp.nus.edu.sg/~leegh/"> Gim Hee Lee<sup>2</sup></a> 
+       <a href="https://geometry.stanford.edu/member/guibas/"> Leonidas Guibas<sup>2,4</sup></a> 
       
     </div>
     <br>
@@ -251,19 +252,24 @@ c {
     <div> 
         <table align="center" width="500px">
             <tbody><tr>
-                <td style="text-align: center; vertical-align: middle;">
-                    Southeast University<sup>1</sup>
-                    National University of Singapore<sup>2</sup><br>
-                    Sichuan University<sup>3</sup><br>
-                    IHPC, Agency for Science, Technology and Research, Singapore<sup>4</sup><br>
-                    CFAR, Agency for Science, Technology and Research, Singapore<sup>5</sup>
+                <td>
+                    University of Michigan<sup>1</sup> 
+                </td>
+                <td>
+                    Google<sup>2</sup> 
+                </td>
+                <td>
+                    &nbsp;   &nbsp;  NVIDIA<sup>3</sup> 
+                </td>
+                <td>
+                    Stanford University<sup>4</sup> 
                 </td>
             </tr>
         </tbody></table>
        
     </div>
-    <div align="center" style="margin-top: 20px;">
-        CVPR, 2025
+    <div align="center">
+        Arxiv, 2023
     </div>
     
     <br>
@@ -271,22 +277,17 @@ c {
         <tbody><tr>
             <td align="center" width="50px">
                 <center>
-                    <a href="">[Paper]</a>
+                    <a href="https://nileshkulkarni.github.io/nifty/assets/paper.pdf">[Paper]</a>
                 </center>
             </td>
             <td align="center" width="50px">
                 <center>
-                    <span> <a href="">[Supp.] </a> </span> 
+                    <span> <a href="https://nileshkulkarni.github.io/nifty/supplementary.html">[Supp.] </a> </span> 
                 </center>
             </td>
             <td align="center" width="50px">
                 <center>
-                    <span> <a href="">[GitHub] </a> </span> 
-                </center>
-            </td>
-            <td align="center" width="50px">
-                <center>
-                    <span> <a href="">[Dataset] </a> </span> 
+                    <span> <a href="https://github.com/nileshkulkarni/nifty">[GitHub] </a> </span> 
                 </center>
             </td>
         </tr>
@@ -298,87 +299,70 @@ c {
     <tbody><tr><td>
  
     <div align="center" class="content" width="400px">
-    <img align="center" width="800px" src="./CloseApp_files/teaser_1.jpg"> 
+    <img height="300" src="./NIFTY_files/fig1.png"> 
     <br>
     <p align="justify">
-        Due to visual ambiguities and inter-person occlusions, existing human pose estimation methods cannot recover plausible close interactions from in-the-wild videos. Even state-of-the-art large foundation models~(\eg, SAM) cannot accurately distinguish human semantics in such challenging scenarios. In this work, we find that human appearance can provide a straightforward cue to address these obstacles. Based on this observation, we propose a dual-branch optimization framework to reconstruct accurate interactive motions with plausible body contacts constrained by human appearances, social proxemics, and physical laws. Specifically, we first train a diffusion model to learn the human proxemic behavior and pose prior knowledge. The trained network and two optimizable tensors are then incorporated into a dual-branch optimization framework to reconstruct human motions and appearances. Several constraints based on 3D Gaussians, 2D keypoints, and mesh penetrations are also designed to assist the optimization. With the proxemics prior and diverse constraints, our method is capable of estimating accurate interactions from in-the-wild videos captured in complex environments. We further build a dataset with pseudo ground-truth interaction annotations, which may promote future research on pose estimation and human behavior understanding. Experimental results on several benchmarks demonstrate that our method outperforms existing approaches. The code and data will be publicly available for research purpose. 
+        We address the problem of generating realistic 3D motions of humans interacting
+        with objects in a scene. Our key idea is to create a neural interaction field attached
+        to a specific object, which outputs the distance to the valid interaction manifold
+        given a human pose as input. This interaction field guides the sampling of an object-
+        conditioned human motion diffusion model, so as to encourage plausible contacts
+        and affordance semantics. To support interactions with scarcely available data,
+        we propose an automated synthetic data pipeline. For this, we seed a pre-trained
+        motion model, which has priors for the basics of human movement, with interaction-
+        specific anchor poses extracted from limited motion capture data. Using our
+        guided diffusion model trained on generated synthetic data, we synthesize realistic
+        motions for sitting and lifting with several objects, outperforming alternative
+        approaches in terms of motion quality and successful action completion. We call
+        our framework NIFTY: Neural Interaction Fields for Trajectory sYnthesis.
     </p>
     </div>
     </td>  </tr>
     </tbody></table>
     
     <center>
-        <h1>Visual Appearance</h1>
-    </center>  
-    <!-- <hr> -->
-    <table align="center" width="800px">
-        <tbody><tr>
-        <td>
-            <img align="center" width="800px" src="./CloseApp_files/appearance.jpg">
-        </td>
-        </tr>
-        <tr>
-        <td>
-            <p>
-                With predicted UV Gaussian maps, we can map the Gaussians to 3D space with a UV coordinate map and splat them to the image plane. We can then reason the depth ordinal relationship and image-model alignment with the rendered and original images.
-            </p>
-        </td>
-        </tr>
-    
-    </tbody></table>
-    
-    <center>
-        <h1>Method</h1>
+        <h1>Motion generation with Interaction Field Guidance</h1>
     </center>  
     <hr>
     <table align="center" width="800px">
         <tbody><tr>
         <td>
-            <img align="center" width="800px" src="./CloseApp_files/pipeline.jpg">
+            <img align="center" width="800px" src="./NIFTY_files/model.png">
         </td>
         </tr>
         <tr>
         <td>
             <p>
-                <strong>Overview of our framework.</strong> We propose a dual-branch optimization framework to reconstruct close human interactions from a monocular in-the-wild video. By optimizing the proxemics prior, U-Net backbone, and two optimizable tensors, the framework simultaneously predicts interactive motions and coarse appearances. With the constraints from 2D observations, physics, and prior knowledge, the framework can finally output 3D interactions with plausible body poses, natural proxemic relationships and accurate physical contacts.
+            Our motion synthesis model consists of an Object Interaction Field which guides the ouputs from 
+            the diffusion model during sampling. The diffusion model is conditioned on the initial human pose, object
+            geometry and object position. The object interaction field takes as input the last pose of the generated motion,
+            and uses guidance to push the pose towards the valid interaction manifold.
             </p>
         </td>
         </tr>
 
     </tbody></table>
     <center>
-        <h1>Qulaitative Comparisons</h1>
+        <h1>Synthetic Data Generation</h1>
     </center>
     <table align="center" width="800px">
         <tbody><tr>
         <td colspan="2">
             <center>
             <video width="400" controls="" muted="" autoplay="" loop="">
-                <source src="./CloseApp_files/sample1.mp4" type="video/mp4">
+                <source src="./assets/TreeGens/sit_chairwood_all/Date05_Sub06_chairwood_sit_s101_e100_b100.mp4" type="video/mp4">
             </video>
             </center>
         </td>
         <td>
             <center>
                 <video width="400" controls="" muted="" autoplay="" loop="">
-                <source src="./CloseApp_files/sample2.mp4" type="video/mp4">
+                <source src="./assets/TreeGens/sit_tablesquare/Date02_Sub02_tablesquare_sit_s30_e29_b124.mp4" type="video/mp4">
             </video>
             </center>
         </td> 
         </tr>
     </tbody></table>
-    <table align="center" width="800px">
-        <tbody>
-        <tr>
-        <td>
-            <p>
-                Our method leverages human appearance, proxemics, and physics to reduce visual ambiguity, resulting in improved performance.
-            </p>
-        </td>
-        </tr>
-
-
-    <!-- </tbody></table>
     <table align="center" width="800px">
         <tbody><tr>
             <td>
@@ -400,14 +384,14 @@ c {
             
             <td colspan="2">
                 <center>
-                <video width="400" controls="" muted="" autoplay="" loop="">
+                <video height="400" controls="" muted="" autoplay="" loop="">
                     <source src="./assets/nifty_additional/medium_sit_cw.mp4" type="video/mp4">
                 </video>
                 </center>
             </td>   
             <td colspan="2">
                 <center>
-                <video width="400" controls="" muted="" autoplay="" loop="">
+                <video height="400" controls="" muted="" autoplay="" loop="">
                     <source src="./assets/nifty_additional/medium_lift_stool.mp4" type="video/mp4">
                 </video>
                 </center>
@@ -494,91 +478,53 @@ c {
                 <b>Lifting Interactions</b>
             </td>
         </tr>
+    </tbody></table>
+    <center>
+        <h1>Paper</h1>
+    </center>
+    <hr>
+    <br>
+    <table align="center" width="800px">
+        <tbody><tr>
+            <td colspan="2">
+                <img class="layered-paper-big" width="150px" src="./NIFTY_files/paper.png">
+            </td>
+            <td colspan="2">
+                <b>NIFTY: Neural Object Interaction Fields<br> 
+                for Guided Human Motion Synthesis</b> <br>  <br>
+                Kulkarni. N, Rempe. D, Genova K., Kundu A., <br>  Johnson J., Fouhey D., Guibas. L
+                <br> <br>
+                Arxiv, 2023 <br> <br>
+                <a href="https://nileshkulkarni.github.io/nifty/assets/paper.pdf">[Paper] </a>  <a href="https://nileshkulkarni.github.io/nifty/assets/bibtex.txt"> [BibTex] </a>
 
-    
-    <br> -->
 
-</tbody></table>
-<center>
-    <h1>Citation</h1>
-</center>
-
-<table align="center" width="800px">
-    <tbody>
-        <tr>
-            <td>
-                <div class="bibtex">
-                    <pre>
-@inproceedings{closeapp,
-    title     = {Reconstructing Close Human Interaction with Appearance and Proxemics Reasoning},
-    author    = {Huang Buzhen and Li Chen and Xu Chongyang and Lu Dongyue and Chen Jinnan and 
-                Wang Yangang and Lee Gim Hee},
-    booktitle = {IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-    year      = {2025}}
-                    </pre>
-                </div>
             </td>
         </tr>
-    </tbody>
-</table>
-
-<style>
-.bibtex {
-    font-family: "Courier New", monospace; /* 等宽字体 */
-    white-space: pre-wrap;   /* 自动换行 */
-    word-wrap: break-word;   /* 长文本折行 */
-    text-align: left;        /* 左对齐 */
-    font-size: 15px;         /* 增大字体 */
-    max-width: 800px;            /* 限制最大宽度 */
-    
-}
-h1 {
-    font-family: "Times New Roman", serif;
-    font-weight: bold;
-    margin-bottom: 1px;
-}
-</style>
-
-
-<!-- </tbody></table>
-<center>
-    <h1>Paper</h1>
-</center>
-<hr>
-<br>
-<table align="center" width="800px">
-    <tbody><tr>
-        <td colspan="2">
-            <img class="layered-paper-big" width="150px" src="./CloseApp_files/paper.jpg">
-        </td>
-        <td colspan="2">
-            <pre style="font-size: 15px; word-wrap: break-word; overflow-wrap: break-word;">
-                @inproceedings{closeapp,
-                    title     = {Reconstructing Close Human Interaction with Appearance and Proxemics Reasoning},
-                    author    = {Huang Buzhen and Li Chen and Xu Chongyang and Lu Dongyue and Chen Jinnan and Wang Yangang and Lee Gim Hee},
-                    booktitle = {IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-                    year      = {2025}}
-                </pre>
-            
-        </td>
-    </tr> -->
-    
     </tbody></table>
+    <br>
+
     <center>
         <h1>Acknowledgments</h1>
     </center>
     <hr>
-    <table align="center" width="800px">
-        <tbody>
-        <tr>
-        <td>
-            <p>
-                This research is supported by China Scholarship Council under Grant Number 202306090192. This project page template is based on <a href="https://research.nvidia.com/labs/toronto-ai/trace-pace/"> this page</a>.
-            </p>
-        </td>
-        </tr>
+    <p>
+        We express our gratitude to our colleagues for the fantastic project discussions and feedback provided at different stages. We have organized them by institution (in alphabetical order) .
+        </p><ul> 
+            <li><i>Google</i> : Matthew Brown, Frank Dellaert, Thomas A. Funkhouser, Varun Jampani</li>
+            <li><i>Google (co-interns)</i> : Songyou Peng, Mikaela Uy, Guandao Yang, Xiaoshuai Zhang </li> 
+            <li><i>University of Michigan </i> :  Mohamed El Banani, Ang Cao,  Karan Desai,  Richard Higgins,  Sarah Jabbour, Linyi Jin, Jeongsoo Park, Chris Rockwell, Dandan Shan</li>
+        </ul>
 
-
+        This work was partly done when NK was interning at Google Research. DR was supported by the NVIDIA Graduate Fellowship. This project page template is based on <a href="https://research.nvidia.com/labs/toronto-ai/trace-pace/"> this page</a>.
+    <p></p>
+    <hr>
+    <br>
+    <table align="center">
+        <tbody><tr> <td><p>
+            ...
+        </p>
+     </td></tr>
+    </tbody></table>
     
 
 
