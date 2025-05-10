@@ -23,6 +23,11 @@ My general research interests are in human shape reconstruction and motion captu
             <li>[2025-01-22]  One paper accepted to ICLR 2025.</li>
             </td>
           </tr>
+        	<!-- <tr>
+            <td class="news_date1">
+            <li>[2024-11-12]  Invited talk at <a href="https://cic.tju.edu.cn/faculty/likun/people.html" target="_blank">TJU-3DV</a>.</li>
+            </td>
+          </tr> -->
         	<tr>
             <td class="news_date1">
             <li>[2024-11-05]  I was selected as a <a href="https://neurips.cc/Conferences/2024/ProgramCommittee#top-reviewers" target="_blank">top reviewer</a> of NeurIPS 2024.</li>
