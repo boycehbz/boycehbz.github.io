@@ -9,6 +9,8 @@ I visited the National University of Singapore (NUS) in 2023, where I worked wit
 I received my B.E. degree in Automation at Hangzhou Dianzi University (HDU) under the supervision of Prof. <a href="https://cgyan-iipl.github.io/">Chenggang Yan</a> and Prof. <a href="https://www.gaoyue.org/">Yue Gao</a>. 
 My general research interests are in human shape reconstruction and motion capture.</p>
 
+<!-- <span style="color:red">I am open to potential collaborations and engaging discussions. Don't hesitate to get in touch if you're interested.</span> -->
+
 <h2>News</h2>
 
 <ul>  
@@ -126,6 +128,16 @@ My general research interests are in human shape reconstruction and motion captu
     <li> [2020-02-24]  One paper accepted to CVPR2020.</li> -->
 </ul>
 
+
+
+<h2>Academic Service</h2>
+
+<ul>
+  <li>Session Chair: IJCAI.</li><br>
+	<li>Conference Reviewer: NeurIPS, CVPR, ICCV, ECCV, ICLR, ICML, etc.</li><br>
+	<li>Journal Reviewer: TPAMI, TMM, CVMJ, Computers & Graphics.</li><br>
+</ul>
+
 <h2>Teaching Assistant</h2>
 
 <ul>
@@ -137,14 +149,6 @@ My general research interests are in human shape reconstruction and motion captu
 	<span style="display:inline-block;font-size:1.7rem;font-family:Arial;font-weight:bold;">Introduction to Artificial Intelligence</span><br>
 	<span style="display:inline-block;font-size:1.4rem;font-family:Arial;padding-bottom:0.6rem">Instructor: Yangang Wang, Fall 2019</span>
 	</li>
-</ul>
-
-<h2>Academic Service</h2>
-
-<ul>
-  <li>Session Chair: IJCAI.</li><br>
-	<li>Conference Reviewer: NeurIPS, CVPR, ICCV, ECCV, ICLR, ICML, etc.</li><br>
-	<li>Journal Reviewer: TPAMI, TMM, CVMJ, Computers & Graphics.</li><br>
 </ul>
 
 
