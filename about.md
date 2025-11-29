@@ -4,17 +4,27 @@ layout: page
 ---
 ![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %})
 
-<p>Hi there! My name is Buzhen Huang (黄步真). I am a Ph.D. student in Vision and Cognition Lab at Southeast University (SEU), advised by Prof. <a href="https://www.yangangwang.com/">Yangang Wang</a>. 
-I visited the National University of Singapore (NUS) in 2023, where I worked with Prof. <a href="https://www.comp.nus.edu.sg/~leegh/">Gim Hee Lee</a>.
-I received my B.E. degree in Automation at Hangzhou Dianzi University (HDU) under the supervision of Prof. <a href="https://cgyan-iipl.github.io/">Chenggang Yan</a> and Prof. <a href="https://www.gaoyue.org/">Yue Gao</a>. 
-My general research interests are in human shape reconstruction and motion capture.</p>
+<p>Hi there! I am Buzhen Huang (黄步真), a Tenure-Track Associate Professor at the  <a href="https://cic.tju.edu.cn/">College of Intelligence and Computing</a>, Tianjin University (TJU), where I work closely with Prof. <a href="https://cic.tju.edu.cn/faculty/likun/index.html">Kun Li</a>. I received my Ph.D. from Southeast University (SEU), advised by Prof. <a href="https://www.yangangwang.com/">Yangang Wang</a>. 
+In 2023, I was a visiting student at the National University of Singapore (NUS), working with Prof. <a href="https://www.comp.nus.edu.sg/~leegh/">Gim Hee Lee</a>.
+I obtained my B.E. degree in Automation at Hangzhou Dianzi University (HDU) under the supervision of Prof. <a href="https://cgyan-iipl.github.io/">Chenggang Yan</a> and Prof. <a href="https://www.gaoyue.org/">Yue Gao</a>. 
+My research interests lie in human reconstruction, motion capture, and character animation.</p>
 
-<!-- <span style="color:red">I am open to potential collaborations and engaging discussions. Don't hesitate to get in touch if you're interested.</span> -->
+<span style="color:red">长期招收硕士研究生，本科生和实习生，欢迎对三维视觉和具身智能感兴趣的同学与我联系！(buzhenhuang@outlook.com)</span>
 
 <h2>News</h2>
 
 <ul>  
 	<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    		  <tr>
+            <td class="news_date1">
+            <li>[2025-10-17]  We organized <a href="https://www.prcv.cn/CN/BBS-KongJian/" target="_blank">Spatial Perception and Generation</a> workshop at PRCV 2025 .</li>
+            </td>
+          </tr>
+    		  <tr>
+            <td class="news_date1">
+            <li>[2025-06-16]  One paper accepted to IROS 2025.</li>
+            </td>
+          </tr>
     		  <tr>
             <td class="news_date1">
             <li>[2025-02-26]  Two papers accepted to CVPR 2025.</li>
@@ -41,7 +51,7 @@ My general research interests are in human shape reconstruction and motion captu
             </td>
           </tr>
     		  <tr>
-            <td class="news_date1">
+            <td class="table_toggle" style="display: none;">
             <li>[2024-02-27]  One paper accepted to CVPR 2024.</li>
             </td>
           </tr>
