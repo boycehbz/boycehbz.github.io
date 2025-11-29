@@ -145,7 +145,7 @@ My research interests lie in human reconstruction, motion capture, and character
 <ul>
   <li>Session Chair: IJCAI.</li><br>
 	<li>Conference Reviewer: NeurIPS, CVPR, ICCV, ECCV, ICLR, ICML, etc.</li><br>
-	<li>Journal Reviewer: TPAMI, TMM, CVMJ, Computers & Graphics.</li><br>
+	<li>Journal Reviewer: TPAMI, TMM, CVMJ, Computers & Graphics, etc.</li><br>
 </ul>
 
 <h2>Teaching Assistant</h2>
