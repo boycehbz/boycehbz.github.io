@@ -17,7 +17,12 @@ My research interests lie in human reconstruction, motion capture, and character
 	<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
     		  <tr>
             <td class="news_date1">
-            <li>[2025-10-17]  We organized <a href="https://www.prcv.cn/CN/BBS-KongJian/" target="_blank">Spatial Perception and Generation</a> workshop at PRCV 2025 .</li>
+            <li>[2026-02-21]  Two papers accepted to CVPR 2026.</li>
+            </td>
+          </tr>
+    		  <tr>
+            <td class="news_date1">
+            <li>[2025-10-17]  We organized <a href="https://www.prcv.cn/CN/BBS-KongJian/" target="_blank">Spatial Perception and Generation</a> workshop at PRCV 2025.</li>
             </td>
           </tr>
     		  <tr>
@@ -46,7 +51,7 @@ My research interests lie in human reconstruction, motion capture, and character
             </td>
           </tr>
       		<tr>
-            <td class="news_date1">
+            <td class="table_toggle" style="display: none;">
             <li>[2024-08-17]  Invited talk on Human Interaction Modeling at <a href="https://www.prai.net/prai2024.html" target="_blank">PRAI 2024</a>.</li>
             </td>
           </tr>
