@@ -4,7 +4,7 @@ layout: page
 ---
 ![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %})
 
-<p>Hi there! I am Buzhen Huang (黄步真), a Tenure-Track Associate Professor at <a href="https://cic.tju.edu.cn/">College of Intelligence and Computing</a>, Tianjin University (TJU), where I work closely with Prof. <a href="https://cic.tju.edu.cn/faculty/likun/index.html">Kun Li</a>. I received my Ph.D. from Southeast University (SEU) in 2025. I was a visiting student at <a href="https://www.comp.nus.edu.sg/~leegh/">CVRP Lab</a>, National University of Singapore (NUS), from 2023 to 2024.
+<p>Hi there! I am Buzhen Huang (黄步真), a Tenure-Track Associate Professor at <a href="https://sai.tju.edu.cn/">School of Artificial Intelligence</a>, Tianjin University (TJU), where I work closely with Prof. <a href="https://cic.tju.edu.cn/faculty/likun/index.html">Kun Li</a>. I received my Ph.D. from Southeast University (SEU) in 2025. I was a visiting student at <a href="https://www.comp.nus.edu.sg/~leegh/">CVRP Lab</a>, National University of Singapore (NUS), from 2023 to 2024.
 My research interests lie in human reconstruction, motion capture, and character animation.</p>
 <!-- I obtained my B.E. degree in Automation at Hangzhou Dianzi University (HDU) under the supervision of Prof. <a href="https://cgyan-iipl.github.io/">Chenggang Yan</a> and Prof. <a href="https://www.gaoyue.org/">Yue Gao</a>.  -->
 
