@@ -17,6 +17,21 @@ My research interests lie in human reconstruction, motion capture, and character
 	<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
     		  <tr>
             <td class="news_date1">
+            <li>[2026-05-15]  Invited talk at <a href="https://singaporevisionday.github.io/svd2026/#keynote" target="_blank">Singapore Vision Day 2026</a>.</li>
+            </td>
+          </tr>
+    		  <tr>
+            <td class="news_date1">
+            <li>[2026-04-11]  We organized <a href="https://mp.weixin.qq.com/s/MjlxeZF6Nbfo0dTLBmPWWQ" target="_blank">Intelligent Image & Graphics Processing</a> workshop.</li>
+            </td>
+          </tr>
+    		  <tr>
+            <td class="news_date1">
+            <li>[2025-03-17]  One paper accepted to ICME 2026.</li>
+            </td>
+          </tr>
+    		  <tr>
+            <td class="news_date1">
             <li>[2026-02-21]  Two papers accepted to CVPR 2026.</li>
             </td>
           </tr>
