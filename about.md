@@ -27,7 +27,7 @@ My research interests lie in human reconstruction, motion capture, and character
           </tr>
     		  <tr>
             <td class="news_date1">
-            <li>[2025-03-17]  One paper accepted to ICME 2026.</li>
+            <li>[2026-03-17]  One paper accepted to ICME 2026.</li>
             </td>
           </tr>
     		  <tr>
