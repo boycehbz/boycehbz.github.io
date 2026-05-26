@@ -49,22 +49,26 @@
 
     @media #{$below}
         width: 100vw
-        margin: 4rem 0 4rem calc((100% - 100vw) / 2)
+        margin: 3.2rem 0 3.2rem calc((100% - 100vw) / 2)
         box-sizing: border-box
         padding: 0 18px
+        display: flex
+        align-items: center
+        gap: 10px
 		
     > .toleft
         display: inline-block
         width: 30%
 
         @media #{$below}
-            width: 28%
-            vertical-align: top
+            flex: 0 0 30%
+            width: 30%
+            vertical-align: middle
 
             img
                 width: 100% !important
-                max-width: 130px !important
-                max-height: 120px !important
+                max-width: 112px !important
+                max-height: 92px !important
                 object-fit: contain
 
     > .toright
@@ -72,20 +76,21 @@
         width: 60%
 
         @media #{$below}
-            width: 68%
-            margin-left: 2%
-            vertical-align: top
+            flex: 1 1 auto
+            width: auto
+            margin-left: 0
+            vertical-align: middle
             word-break: normal
             overflow-wrap: anywhere
 
             span
-                font-size: 1.25rem !important
-                line-height: 1.35
-                padding-bottom: 0.25rem !important
+                font-size: 1.05rem !important
+                line-height: 1.25
+                padding-bottom: 0.15rem !important
 
             span:first-child
-                font-size: 1.45rem !important
-                line-height: 1.25
+                font-size: 1.2rem !important
+                line-height: 1.18
 		
         //@media #{$below}
         //    width: 70%
