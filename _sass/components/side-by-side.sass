@@ -48,15 +48,44 @@
         margin: 6rem 0 6rem -15%
 
     @media #{$below}
-        width: 100%
-        margin: 6rem 0
+        width: 100vw
+        margin: 4rem 0 4rem calc((100% - 100vw) / 2)
+        box-sizing: border-box
+        padding: 0 18px
 		
     > .toleft
         display: inline-block
         width: 30%
+
+        @media #{$below}
+            width: 28%
+            vertical-align: top
+
+            img
+                width: 100% !important
+                max-width: 130px !important
+                max-height: 120px !important
+                object-fit: contain
+
     > .toright
         display: inline-block
         width: 60%
+
+        @media #{$below}
+            width: 68%
+            margin-left: 2%
+            vertical-align: top
+            word-break: normal
+            overflow-wrap: anywhere
+
+            span
+                font-size: 1.25rem !important
+                line-height: 1.35
+                padding-bottom: 0.25rem !important
+
+            span:first-child
+                font-size: 1.45rem !important
+                line-height: 1.25
 		
         //@media #{$below}
         //    width: 70%
