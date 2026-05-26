@@ -167,10 +167,10 @@ My research interests lie in human reconstruction, motion capture, and character
 	<li>Conference Reviewer: NeurIPS, CVPR, ICCV, ECCV, ICLR, ICML, etc.</li><br>
 	<li>Journal Reviewer: TPAMI, TMM, CVMJ, Computers & Graphics, etc.</li><br>
 </ul>
-
+<!-- 
 <h2>Teaching Assistant</h2>
 
-<ul>
+<!-- <ul>
     <li>
 	<span style="display:inline-block;font-size:1.7rem;font-family:Arial;font-weight:bold;">Digital Image Processing System</span><br>
 	<span style="display:inline-block;font-size:1.4rem;font-family:Arial;padding-bottom:0.6rem">Instructor: Yangang Wang, Fall 2020</span>
@@ -179,15 +179,9 @@ My research interests lie in human reconstruction, motion capture, and character
 	<span style="display:inline-block;font-size:1.7rem;font-family:Arial;font-weight:bold;">Introduction to Artificial Intelligence</span><br>
 	<span style="display:inline-block;font-size:1.4rem;font-family:Arial;padding-bottom:0.6rem">Instructor: Yangang Wang, Fall 2019</span>
 	</li>
-</ul>
+</ul> --> 
 
 
-<!-- <h2>Projects</h2>
-
-<ul>
-	<li><a href="http://yangangwang.com/papers/ZHANG-OOH-2020-03.html">Occluded Human Reconstruction</a></li><br>
-	<li><a href="https://github.com/boycehbz/MvSMPLfitting">MvSMPLfitting</a></li>
-</ul> -->
 
 <br>
 <br>
