@@ -1,0 +1,176 @@
+---
+layout: page
+title: Team
+---
+
+<style>
+    .team-section {
+        width: 130%;
+        margin: 4rem 0 5rem -15%;
+    }
+
+    .team-section h2 {
+        margin: 0 0 2rem;
+        font-size: 2.2rem;
+    }
+
+    .team-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+        gap: 2.4rem;
+    }
+
+    .student-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .student-grid .team-member img {
+        width: 136px;
+        height: 172px;
+    }
+
+    .team-member {
+        text-align: center;
+    }
+
+    .team-member img {
+        width: 150px;
+        height: 190px;
+        object-fit: cover;
+        object-position: center top;
+        border-radius: 4px;
+        display: block;
+        margin: 0 auto 1.2rem;
+    }
+
+    .team-member .name {
+        display: block;
+        font-size: 1.8rem;
+        font-weight: bold;
+        color: #333;
+        margin-bottom: 0.4rem;
+    }
+
+    .team-member .role,
+    .team-member .info {
+        display: block;
+        font-size: 1.4rem;
+        line-height: 1.6;
+        color: #666;
+    }
+
+    .team-member .social-links {
+        margin-top: 1.2rem;
+    }
+
+    .team-note {
+        font-size: 1.6rem;
+        line-height: 1.7;
+        color: #555;
+        font-weight: 300;
+    }
+
+    @media screen and (max-width: 640px) {
+        .team-section {
+            width: 100%;
+            margin: 4rem 0;
+        }
+
+        .team-grid {
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+        }
+
+        .student-grid {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        .team-member img {
+            width: 132px;
+            height: 168px;
+        }
+
+        .student-grid .team-member img {
+            width: 118px;
+            height: 150px;
+        }
+    }
+</style>
+
+<section class="team-section">
+    <div class="team-grid">
+        <div class="team-member">
+            <img src="{{ site.url }}/{{ site.picture }}" alt="Buzhen Huang">
+            <span class="name">Buzhen Huang</span>
+            <span class="role">Tenure-Track Associate Professor</span>
+            <span class="info">School of Artificial Intelligence, Tianjin University</span>
+            {% include social-links.html %}
+        </div>
+    </div>
+</section>
+
+<section class="team-section">
+    <h2>Ph.D. Students</h2>
+    <div class="team-grid student-grid">
+        <div class="team-member">
+            <img src="{{ site.url }}/assets/people/yt.jpg" alt="YT">
+            <span class="name">Tao Yu</span>
+            
+        </div>
+        <div class="team-member">
+            <img src="{{ site.url }}/assets/people/wzw.jpg" alt="WZW">
+            <span class="name">Ziwen Wang</span>
+            
+        </div>
+        <div class="team-member">
+            <img src="{{ site.url }}/assets/people/yyw.png" alt="YYW">
+            <span class="name">Yuanwang Yang</span>
+            
+        </div>
+    </div>
+</section>
+
+<section class="team-section">
+    <h2>Graduate Students</h2>
+    <div class="team-grid student-grid">
+        <div class="team-member">
+            <img src="{{ site.url }}/assets/people/lhl.jpg" alt="LHL">
+            <span class="name">Hongliang Liu</span>
+
+        </div>
+        <div class="team-member">
+            <img src="{{ site.url }}/assets/people/ysq.jpg" alt="YSQ">
+            <span class="name">Shuqin Yang</span>
+
+        </div>
+        <div class="team-member">
+            <img src="{{ site.url }}/assets/people/xcy.jpg" alt="XCY">
+            <span class="name">Chenyi Xie</span>
+
+        </div>
+        <div class="team-member">
+            <img src="{{ site.url }}/assets/people/wxc.jpg" alt="WXC">
+            <span class="name">Xingchen Wu</span>
+
+        </div>
+        <div class="team-member">
+            <img src="{{ site.url }}/assets/people/jyc.jpg" alt="JYC">
+            <span class="name">Yanchi Jiang</span>
+
+        </div>
+        <div class="team-member">
+            <img src="{{ site.url }}/assets/people/rzx.jpg" alt="RZX">
+            <span class="name">Zongxuan Ren</span>
+
+        </div>
+    </div>
+</section>
+
+<!-- <section class="team-section">
+    <h2>Alumni & Visitors</h2>
+    <p class="team-note">More information will be updated soon.</p>
+</section> -->
+
+<section class="team-section">
+    <h2>Openings</h2>
+    <p class="team-note">We are looking for motivated PhD students, master students, undergraduate students, and interns interested in 3D vision, embodied intelligence, human reconstruction, motion capture, and character animation.</p>
+</section>

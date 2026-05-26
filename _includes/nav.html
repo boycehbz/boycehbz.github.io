@@ -30,6 +30,14 @@
             {% endif %}
         {% endif %}
 
+        {% if site.team == true %}
+            {% if page.title != "Team" %}
+                <li class="item">
+                    <a class="link" href="{{ site.url }}/team">Team</a>
+                </li>
+            {% endif %}
+        {% endif %}
+
         {% if site.about == true %}
             {% if page.title != "About" %}
                 <li class="item">
