@@ -17,6 +17,11 @@ My research interests lie in human reconstruction, motion capture, and character
 	<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
     		  <tr>
             <td class="news_date1">
+            <li>[2026-06-08] We will organize a special session on Reconstruction and Generation of Humans, Objects, and Scenes for Spatial Intelligence at <a href="https://mmm2027.net/index.html" target="_blank">MMM 2027</a>.</li>
+            </td>
+          </tr>
+    		  <tr>
+            <td class="news_date1">
             <li>[2026-05-15]  Invited talk at <a href="https://singaporevisionday.github.io/svd2026/#keynote" target="_blank">Singapore Vision Day 2026</a>.</li>
             </td>
           </tr>
@@ -46,12 +51,12 @@ My research interests lie in human reconstruction, motion capture, and character
             </td>
           </tr>
     		  <tr>
-            <td class="news_date1">
+            <td class="table_toggle" style="display: none;">
             <li>[2025-02-26]  Two papers accepted to CVPR 2025.</li>
             </td>
           </tr>
     		  <tr>
-            <td class="news_date1">
+            <td class="table_toggle" style="display: none;">
             <li>[2025-01-22]  One paper accepted to ICLR 2025.</li>
             </td>
           </tr>
@@ -61,7 +66,7 @@ My research interests lie in human reconstruction, motion capture, and character
             </td>
           </tr> -->
         	<tr>
-            <td class="news_date1">
+            <td class="table_toggle" style="display: none;">
             <li>[2024-11-05]  I was selected as a <a href="https://neurips.cc/Conferences/2024/ProgramCommittee#top-reviewers" target="_blank">top reviewer</a> of NeurIPS 2024.</li>
             </td>
           </tr>
@@ -163,9 +168,11 @@ My research interests lie in human reconstruction, motion capture, and character
 <h2>Academic Service</h2>
 
 <ul>
+  <li>Program Committee: Pacific Graphics.</li><br>
+  <li>Workshop Chair: CIRAC.</li><br>
   <li>Session Chair: IJCAI.</li><br>
 	<li>Conference Reviewer: NeurIPS, CVPR, ICCV, ECCV, ICLR, ICML, etc.</li><br>
-	<li>Journal Reviewer: TPAMI, TMM, CVMJ, Computers & Graphics, etc.</li><br>
+	<li>Journal Reviewer: TPAMI, TMM, TNNLS, CVMJ, etc.</li><br>
 </ul>
 <!-- 
 <h2>Teaching Assistant</h2>
