@@ -17,6 +17,11 @@ My research interests lie in human reconstruction, motion capture, and character
 	<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
     		  <tr>
             <td class="news_date1">
+            <li>[2026-08-12]  One paper accepted to IJCV 2026.</li>
+            </td>
+          </tr>
+    		  <tr>
+            <td class="news_date1">
             <li>[2026-06-08] We will organize a special session on Reconstruction and Generation of Humans, Objects, and Scenes for Spatial Intelligence at <a href="https://mmm2027.net/index.html" target="_blank">MMM 2027</a>.</li>
             </td>
           </tr>
