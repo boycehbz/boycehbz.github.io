@@ -18,7 +18,7 @@ My research interests lie in human reconstruction, motion capture, and character
 	<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
     		  <tr>
             <td class="news_date1">
-            <li>[2026-10-11] We will organize <a href="https://mp.weixin.qq.com/s/VVnsOgrPrZLLHmwewXiafA" target="_blank">the Workshop on Humanoid Robot Interaction Perception and Control</a> at CIRAC 2026. </li>
+            <li>[2026-10-11] We organized <a href="https://mp.weixin.qq.com/s/VVnsOgrPrZLLHmwewXiafA" target="_blank">the Workshop on Humanoid Robot Interaction Perception and Control</a> at CIRAC 2026. </li>
             </td>
           </tr>
           <tr>
